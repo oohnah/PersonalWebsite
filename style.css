@@ -1,0 +1,121 @@
+/*---built-ins---*/
+
+h1{
+	font-family: baskerville;
+	font-size: 50px;
+	font-style: italic;
+	margin: 0px;
+	
+}
+
+h2{
+	font-family: baskerville;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: baskerville, serif;
+	font-size: 25px;
+}
+
+a, a:link, a:active{
+	color: #990099;
+	text-decoration: none;
+	font-style: italic;
+	transition: text-decoration 1s;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: 660066;
+}
+
+/*---ids---*/
+
+#stickyhead{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 75px;
+	width: 100%;
+	background-color: #dddddd;
+	opacity: .9;
+	border-bottom: 5px solid #cccccc;
+	z-index: 1;
+	transition: opacity 1s;
+}
+
+#stickyhead:hover{
+	opacity: 1;
+}
+
+#buff{
+	width: 100%;
+	height: 120px;
+	position: relative;
+}
+
+#content{
+	height: auto;
+	padding: 10px;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	z-index: 0;
+	margin-bottom: 100px;
+}
+
+#experimentalfoot{
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 75px;
+	background-color: #dddddd;
+	border-top: 5px solid #cccccc;
+	margin: -12px;
+	padding: 10px;
+	color: #333333;
+	font-size: 15px;
+}
+
+/*---class---*/
+.head{
+	opacity: 1;
+	height: 75px;
+}
+
+.nav{
+	display: inline-block;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+}
+
+.nav a{
+	color: #333333;
+	text-transform: lowercase;
+	font-size: 30px;
+}
+
+.footbox{
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+.navlink{
+	margin-right: 25px;
+
+}
+
+.section{
+	border-left: 1px solid #990099;
+	padding-left: 10px;
+}
