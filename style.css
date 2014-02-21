@@ -1,22 +1,29 @@
 /*---built-ins---*/
 
 h1{
-	font-family: baskerville;
-	font-size: 50px;
-	font-style: italic;
-	margin: 0px;
-	
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 
 h2{
-	font-family: baskerville;
-	font-size: 40px;
-	text-decoration: underline;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 35px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+p{
+	margin-top: 2px;
 }
 
 body{
 	background-color: #eeeeee;
-	font-family: baskerville, serif;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 	font-size: 25px;
 }
 
@@ -24,7 +31,6 @@ a, a:link, a:active{
 	color: #990099;
 	text-decoration: none;
 	font-style: italic;
-	transition: text-decoration 1s;
 }
 
 a:hover{
@@ -54,9 +60,10 @@ a:visited{
 	opacity: 1;
 }
 
+
 #buff{
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	position: relative;
 }
 
@@ -67,7 +74,8 @@ a:visited{
 	position: relative;
 	left: 10%;
 	z-index: 0;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
+	margin-top: 0px;
 }
 
 #experimentalfoot{
@@ -82,6 +90,31 @@ a:visited{
 	padding: 10px;
 	color: #333333;
 	font-size: 15px;
+}
+
+#block1{
+	width: auto;
+	height: auto;
+	display: none;
+	transition: display 1s;
+}
+
+#block2{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#block3{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#block4{
+	width: auto;
+	height: auto;
+	display: none;
 }
 
 /*---class---*/
@@ -112,10 +145,24 @@ a:visited{
 
 .navlink{
 	margin-right: 25px;
+	padding: 10px;
+	top: 0px;
 
 }
+
+.navlink:hover{
+	color: #990099;
+}
+
+.nowlink{
+	color: #990099;
+	margin-right:25px;
+	padding: 10px;
+}
+
 
 .section{
 	border-left: 1px solid #990099;
 	padding-left: 10px;
+	margin: 0px;
 }
