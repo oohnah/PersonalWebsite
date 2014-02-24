@@ -17,7 +17,7 @@
 <div class="nav">
 
 <a href="http://www.ameliaoon.com/about.html" class="navlink" style="color: #990099; text-decoration: underline;">about</a>
-<a href="http://sass-lang.com/guide" class="navlink">resume</a>
+<a href="http://www.ameliaoon.com/RESUMEv3.1.1.pdf" class="navlink">resume</a>
 <a href="http://sass-lang.com/guide" class="navlink">portfolio</a>
 <a href="http://sass-lang.com/guide" class="navlink">contact</a>
 </div><!--end nav-->
@@ -47,7 +47,7 @@
 </div><!--block1-->
 
 
-<h2>My Work <a href="#" onclick="toggle('block2');">(+/-)</a></h2>
+<h2>My Work <a href="#block1" onclick="toggle('block2');">(+/-)</a></h2>
 <div id="block2">
 <div class="section">
 <p>
@@ -66,7 +66,7 @@
 </div><!--end block2-->
 
 
-<h2>My Projects<a href="#" onclick="toggle('block3');">(+/-)</a></h2>
+<h2>My Projects<a href="#block2" onclick="toggle('block3');">(+/-)</a></h2>
 <div id="block3">
 <div class="section">
 <p>
@@ -87,7 +87,7 @@
 </div><!--end section-->
 </div><!--end block3-->
 
-<h2>My Interests <a href="#" onclick="toggle('block4');">(+/-)</a></h2>
+<h2>My Interests <a href="#block3" onclick="toggle('block4');">(+/-)</a></h2>
 <div id="block4">
 <div class="section">
 <p>
@@ -99,6 +99,17 @@
 </p>
 </div><!--end section-->
 </div><!--end block4-->
+
+
+<h2>My Favorites</h2>
+<div class="section">
+	Find out about my favorite
+	<input type="text" name="favorite" id="textbox">
+	<a href="#block4" onclick="favorite()">go</a>
+	<p id="answer"></p>
+</div><!--end section-->
+
+
 
 
 </div><!--end content-->

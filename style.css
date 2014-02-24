@@ -17,6 +17,8 @@ h2{
 	padding-left: 10px;
 }
 
+
+
 p{
 	margin-top: 2px;
 }
@@ -117,6 +119,14 @@ a:visited{
 	display: none;
 }
 
+#texbox{
+	visibility: visible;
+}
+
+#answer{
+	visibility: visible;
+}
+
 /*---class---*/
 .head{
 	opacity: 1;
@@ -166,3 +176,4 @@ a:visited{
 	padding-left: 10px;
 	margin: 0px;
 }
+
