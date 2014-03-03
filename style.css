@@ -119,6 +119,12 @@ a:visited{
 	display: none;
 }
 
+#block5{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
 #texbox{
 	visibility: visible;
 }
@@ -148,9 +154,10 @@ a:visited{
 
 .footbox{
 	display: inline-block;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 125px;
+	margin-right: 125px;
 	margin-top: 20px;
+	vertical-align: middle;
 }
 
 .navlink{

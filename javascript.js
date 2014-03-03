@@ -51,7 +51,7 @@ function favorite () {
 		case "disney movie":
 			aa="Mulan, and Frozen";
 			break;
-		case "disney princes":
+		case "disney princess":
 			aa="Mulan";
 			break;
 		case "ice cream flavor":
