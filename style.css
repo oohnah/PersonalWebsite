@@ -1,0 +1,186 @@
+/*---built-ins---*/
+
+h1{
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h2{
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 35px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+
+
+p{
+	margin-top: 2px;
+}
+
+body{
+	background-color: #eeeeee;
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 25px;
+}
+
+a, a:link, a:active{
+	color: #990099;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: 660066;
+}
+
+/*---ids---*/
+
+#stickyhead{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 75px;
+	width: 100%;
+	background-color: #dddddd;
+	opacity: .9;
+	border-bottom: 5px solid #cccccc;
+	z-index: 1;
+	transition: opacity 1s;
+}
+
+#stickyhead:hover{
+	opacity: 1;
+}
+
+
+#buff{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+#content{
+	height: auto;
+	padding: 10px;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	z-index: 0;
+	margin-bottom: 200px;
+	margin-top: 0px;
+}
+
+#experimentalfoot{
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 75px;
+	background-color: #dddddd;
+	border-top: 5px solid #cccccc;
+	margin: -12px;
+	padding: 10px;
+	color: #333333;
+	font-size: 15px;
+}
+
+#block1{
+	width: auto;
+	height: auto;
+	display: none;
+	transition: display 1s;
+}
+
+#block2{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#block3{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#block4{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#block5{
+	width: auto;
+	height: auto;
+	display: none;
+}
+
+#texbox{
+	visibility: visible;
+}
+
+#answer{
+	visibility: visible;
+}
+
+/*---class---*/
+.head{
+	opacity: 1;
+	height: 75px;
+}
+
+.nav{
+	display: inline-block;
+	position: absolute;
+	right: 25px;
+	top: 25px;
+}
+
+.nav a{
+	color: #333333;
+	text-transform: lowercase;
+	font-size: 30px;
+}
+
+.footbox{
+	display: inline-block;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+.navlink{
+	margin-right: 25px;
+	padding: 10px;
+	top: 0px;
+
+}
+
+.navlink:hover{
+	color: #990099;
+}
+
+.nowlink{
+	color: #990099;
+	margin-right:25px;
+	padding: 10px;
+}
+
+
+.section{
+	border-left: 1px solid #990099;
+	padding-left: 10px;
+	margin: 0px;
+}
+
